@@ -3,6 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="keywords" content="Грейс Хоппер, Хоппер, Грейс">
+    
+    <meta name="description" content="Биография Грейс Хоппер и ее открытия. Достижения Грейс Хоппер в сфете IT">
+    
+    <link rel="icon" type="image/ico" sizes="32x32" href="icons/iconddd.ico">
+    
+    <meta property="og:title" content="Главная страница">
+    <meta property="og:site_name" content="Грейс Хоппер">
+    <meta property="og:url" content="https://yanchik2709.github.io/Yanchik_project_Tuesday/">
+    <meta property="og:description" content="Сайт о Грейс Хоппер. На этом сайте рассказывается биография Грейс Хоппер, ее достижения и открытия">
+    <meta property="og:image" content="https://yanchik2709.github.io/Yanchik_project_Tuesday/img/images.jpg">
+    
+
+    <meta name="theme-color" content="#4285f4" />
+
+
+    <meta name="msapplication-navbutton-color" content="#4285f4" />
+
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-transcluent" />
+
+
+    <meta name="viewport" content="ya-title=#000000,ya-dock=fade" />
+
+
     <title>Грейс Хоппер</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,3 +79,50 @@
         <p> <a href="tel:89777777777" >8(977)-777-77-77</a></p>
     </footer>
 </body>
+<section id="contact">
+    <h2>Обратная связь</h2>
+    <form action="#" id="contact-form" method="get">
+    <div class="form__item">
+        <label for="topic">Тема сообщения</label>
+        <br/>
+        <select id="topic" name="topic" required="True">
+            <option disabled="True" selected="True" value="">Выберите тему</option>
+         <option value="site">Работа сайта</option>
+            <option value="question">Вопрос</option>
+            <option value="suggestion">Предложение</option>
+      </select>
+     </div>
+     <div class="form__item">
+        <label for="name">Имя</label>
+        <br/>
+        <input id="name" name="name" placeholder="Введите имя" required="True" type="text"/>
+     </div>
+     <div class="form__item">
+        <label for="email">E-mail</label>
+        <br/>
+        <input id="email" name="email" placeholder="Введите E-mail" required="True" type="email"/>
+     </div>
+     <div class="form__item">
+        <label for="phone">Телефон</label>
+        <br/>
+        <input id="phone" name="phone" placeholder="Введите телефон" required="True" type="tel"/>
+     </div>
+     <div class="form__item">
+        <label for="date">Дата</label>
+        <br/>
+        <input id="date" name="date" required="True" type="date"/>
+     </div>
+     <div class="form__item">
+        <label for="message">Текст сообщения</label>
+        <br/>
+        <textarea id="message" name="message" placeholder="Введите текст сообщения" required="True" rows="5"></textarea>
+     </div>
+     <div class="form__item">
+        <input id="agreement" name="agreement" required="True" type="checkbox"/>
+        <label for="agreement">Согласие на обработку данных</label>
+     </div>
+     <div class="form__item">
+        <input type="submit" value="Отправить"/>
+     </div>
+    </form>
+   </section>
